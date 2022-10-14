@@ -1,0 +1,85 @@
+
+/* main box */
+.box {
+    padding: 15px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 16px -8px #ccc;
+    border-radius: 8px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+/* head box section */
+.head-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-box .offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--danger);
+    color: var(--white);
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0px;
+    padding: 0px 5px;
+    width: fit-content;
+    border-radius: 5px 5px;
+}
+.head-box .heart {
+    background-color: var(--light2);
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head-box svg {
+    color: var(--white);
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+.head-box svg:hover {
+    color: rgb(255, 53, 53);
+}
+/* img section */
+.img-box {
+    max-width: 100%;
+    margin: 10px 30px;
+    overflow: hidden;
+}
+.img-box img {
+    max-width: 100%;
+}
+/* text section */
+
+.box .text-box p {
+    margin: 0px;
+    font-size: 14px;
+}
+.box .text-box p:last-child, 
+.box .text-box p:first-child {
+    font-weight: bold;
+}
+.box .text-box p:first-child {
+    margin: 10px 0px;
+}
+.add-cart  svg{
+    height: 34px;
+    width: 34px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    color: var(--danger);
+    cursor: pointer;
+}
+.add-cart  svg:hover{
+    color: #c01f30;
+    transition-duration: .5s;
+}
+

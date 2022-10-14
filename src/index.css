@@ -1,0 +1,49 @@
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:root {
+  /* --yellow: #ffc107; */
+  --danger: #dc3545;
+  --black: #000000;
+  --white: #ffffff;
+  --light: #f5f5f5;
+  --light2: #ebebeb;
+  --blue-light: #ecf1fa;
+  --gray-light: #9b9b9b;
+  --gray: #666666;
+  --gray-dark: #343a40;
+  --green: #28a745;
+  --teal: #20c997;
+  --title-font-family: 'Poppins', sans-serif;
+  --main-font-family: 'Open Sans', sans-serif;
+  --second-font-family: 'Source Sans Pro', sans-serif;
+  --bad-font-family: 'Bad Script', cursive;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:link {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
